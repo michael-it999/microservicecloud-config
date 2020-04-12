@@ -34,7 +34,7 @@ eureka:
     service-url: 
         defaultZone: http://eureka7001.com:7001/eureka
     instance:
-        instance-id: microservicecloud-dept8001         #自定义服务名字
+        instance-id: microservicecloud-config-provider-dept         #自定义服务名字
         prefer-ip-address: true
 ---
 server: 
@@ -67,7 +67,7 @@ eureka:
     service-url: 
         defaultZone: http://eureka7001.com:7001/eureka
     instance:
-        instance-id: microservicecloud-dept8001         #自定义服务名字
+        instance-id: microservicecloud-config-provider-dept         #自定义服务名字
         prefer-ip-address: true
  
 info:
